@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* ----------------------------------------------------------- */
+
+.fw {
+    width: 100%;
+}
+
+.mw {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 100%;
+}
+
+/* ----------------------------------------------------------- */
+
+.blue {
+    background-color: #0d325a;
+    height: 500px;
+}
+
+.bgi {
+    background-image: url("../img/oldman.png");
+    background-size: auto 385px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+header {
+    color: white;
+    position: relative;
+    height: 500px;
+}
+
+header .bar {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+
+.logo {
+    float: left;
+    margin-right: 30px;
+}
+
+header img {
+    height: 40px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.menu {
+    height: 40px;
+    float: left;
+
+}
+
+nav {
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.clickta{
+    float: right;
+
+}
+
+header .box {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main {
+    width: 100%;
+}
+
+.box button {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+button {
+  color: white;
+  background-color: #7fb802;
+  text-align: center;
+  margin-left: 9px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 11px;
+  border: none;
+  font-size: 16px;
+
+}
+
+#tutor {
+    background-color: #0d325a;
+    border: 0;
+}
+
+#login {
+    background-color: #0d325a;
+    border: 1px solid white;
+}
+
+#sup {
+}
+
+/* ----------------------------------------------------------- */
+
+
+.grey {
+    background-color: #f9f9f9;
+    text-align: center;
+
+}
+
+.middlebar {
+    height: 100%;
+    padding: 35px 0;
+
+
+}
+
+.middlebar .container {
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+/* ----------------------------------------------------------- */
+
+.white {
+    background-color: #fff;
+}
+
+main .container {
+    width: 100%;
+    text-align: center;
+}
+
+.container .boxw {
+    width: 33.3333%;
+    float: left;
+    padding: 20px;
+}
+
+
+
+.boxw img {
+    max-height: 135px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #7fb802;
+    font-size: 29px;
+}
+.small {
+    width:50px;
+}
+
+hr{
+    margin: 30px auto;
+}
+
+p {
+    color: #999999;
+    line-height: 1.4;
+}
